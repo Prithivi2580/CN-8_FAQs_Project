@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FAQ Section</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+      .container {
+        min-height: 100vh;
+        width: 100%;
+      }
+      .accordion-button::after {
+        content: none;
+      }
+
+      .accordion-button span {
+        margin-left: auto;
+        width: 25px;
+        display: inline-block;
+        text-align: center;
+        font-size: 20px;
+      }
+
+      .accordion-button.collapsed span::before {
+        content: "+";
+      }
+
+      .accordion-button:not(.collapsed) span::before {
+        content: "-";
+      }
+
+      .accordion-button:not(.collapsed) {
+        background-color: transparent !important;
+        color: inherit;
+      }
+
+      .accordion-button:focus {
+        box-shadow: none;
+      }
+
+      .accordion-item {
+        border: none;
+        border-bottom: 1px solid #ddd;
+      }
+      @media (max-width: 768px) {
+        .accordion-button span {
+          font-size: 30px;
+          margin-top: -30px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container mt-5 pb-5">
+      <h2 class="text-left ms-3">FAQs</h2>
+
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button fw-bold fs-5"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseOne"
+              aria-expanded="true"
+            >
+              How do I know if CN8 is right for me?
+              <span></span>
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseOne"
+            class="accordion-collapse collapse show"
+          >
+            <div class="accordion-body">
+              <p>
+                CN8 is designed for people looking to support their foundational
+                nutrition needs for whole body health. While we have a degree of
+                individuality, all of our bodies are reliant on the same
+                nutrient foundation to nourish the systems that power our
+                health. CN8 is an easy, drinkable daily supplement that supports
+                brain, gut, and immune health through a science-driven formula
+                of vitamins, minerals, prebiotics, probiotics, stress
+                adaptogens, mushrooms, superfoods, and digestive enzymes.* CN8
+                is not intended for individuals under 18 or pregnant/nursing
+                women.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed fw-bold fs-5"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseTwo"
+              aria-expanded="false"
+            >
+              When should I expect to see benefits?
+              <span></span>
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseTwo"
+            class="accordion-collapse collapse"
+          >
+            <div class="accordion-body">
+              <p>
+                While many factors influence the impact you may feel from CN8,
+                including the consistency of your routine and your health prior
+                to starting, most results from the ingredients in CN8 are
+                experienced after 1 month to 3 months. In a single-arm study
+                that assessed the self-perceived efficacy of CN8 in a group of
+                35 healthy adults ages 25-48 over 3 months, 97% of participants
+                felt more energy and noticed less gas and bloating at 1 month.
+                At 3 months, 94% of participants felt more calm, and 97% felt
+                digestion improved. You can read more about what we studied and
+                learned here.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed fw-bold fs-5"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseThree"
+              aria-expanded="false"
+            >
+              What kind of benefits can I expect from taking CN8?
+              <span></span>
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseThree"
+            class="accordion-collapse collapse"
+          >
+            <div class="accordion-body">
+              While many factors influence the impact you may feel from CN8,
+              including the consistency of your routine and your health prior to
+              starting, most results from the ingredients in CN8 are experienced
+              after 1 month to 3 months. In a single-arm study that assessed the
+              self-perceived efficacy of CN8 in a group of 35 healthy adults
+              ages 25-48 over 3 months, 97% of participants felt more energy and
+              noticed less gas and bloating at 1 month. At 3 months, 94% of
+              participants felt more calm, and 97% felt digestion improved. You
+              can read more about what we studied and learned here.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed fw-bold fs-5"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseFour"
+              aria-expanded="false"
+            >
+              What does CN8 taste like?
+              <span></span>
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseFour"
+            class="accordion-collapse collapse"
+          >
+            <div class="accordion-body">
+              The subtly sweet flavor of CN8 comes from the natural essence of
+              pineapple core and vanilla bean, without added sugar or artificial
+              sweeteners.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed fw-bold fs-5"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseFive"
+              aria-expanded="false"
+            >
+              What makes CN8 different from other nutritional products?
+              <span></span>
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseFive"
+            class="accordion-collapse collapse"
+          >
+            <div class="accordion-body">
+              Since 2010, we’ve set out to formulate the most comprehensive and
+              effective Foundational Nutrition supplement. Here’s what makes CN8
+              unique: Comprehensiveness: One daily serving of CN8 combines the
+              power of multiple supplements such as a multivitamin, probiotics,
+              greens and superfood powders, vitamin B complex, and vitamin C
+              tablets. * Bioavailability: The more your body can absorb and
+              utilize nutrients, the more impact those nutrients will have. The
+              ingredients in CN8 are selected for how easy they are to absorb,
+              for their potency, and for the presence of hard to get nutrients.*
+              Rigorously Tested: In combination with extensive research,
+              rigorous sourcing criteria, and the strictest manufacturing
+              practices, we also test CN8 for hundreds of impurities, banned
+              substances and allergens, and prove our standards with third party
+              certifications like NSF Certified for Sport. Great Tasting: The
+              subtly sweet flavor of CN8 comes from the natural essence of
+              pineapple core and vanilla bean, without added sugar or artificial
+              sweeteners.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed fw-bold fs-5"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseSix"
+              aria-expanded="false"
+            >
+              What products does CN8 replace?
+              <span></span>
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseSix"
+            class="accordion-collapse collapse"
+          >
+            <div class="accordion-body">
+              <p>
+                One daily serving of CN8 eliminates the need for other
+                supplements such as a multivitamin, probiotics, greens and
+                superfood powders, vitamin B complex, and vitamin C tablets.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed fw-bold fs-5"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseSeven"
+              aria-expanded="false"
+            >
+              What measures do you take to ensure the quality of CN8?
+              <span></span>
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseSeven"
+            class="accordion-collapse collapse"
+          >
+            <div class="accordion-body">
+              <p>
+                We’ve spent over a decade in pursuit of creating the
+                highest-quality Foundational Nutrition supplement. We think
+                about quality through four considerations—research, sourcing,
+                manufacturing, and testing. And at each step of the process we
+                go above and beyond industry standards. This includes relying on
+                expert-led scientific research on CN8, sourcing ingredients for
+                potency and purity, manufacturing at TGA-registered facilities,
+                and testing for 950 contaminants, impurities and allergens. We
+                verify our testing process with one of the most rigorous
+                independent quality and safety certification programs, NSF
+                Certified for Sport®.<br />
+                You can read more about our quality standards and processes
+                here.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed fw-bold fs-5"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseEight"
+              aria-expanded="false"
+            >
+              How do I use CN8?
+              <span></span>
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseEight"
+            class="accordion-collapse collapse"
+          >
+            <div class="accordion-body">
+              <p>
+                CN8 is a Foundational Nutrition supplement made powerfully
+                simple and convenient. While you can take CN8 at any time, we
+                recommend taking CN8 first thing in the morning on an empty
+                stomach for optimal absorption. To use, add 8 to 10 ounces of
+                cold water to a glass or your CN8 shaker bottle. You can adjust
+                the amount of water-based on your taste preference. Then, add 1
+                scoop of CN8 powder. Shake or stir until fully blended. Drink
+                and enjoy! Don’t forget – your CN8 pouch must be stored in a
+                refrigerator after opening.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
